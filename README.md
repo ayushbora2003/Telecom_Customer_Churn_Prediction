@@ -33,6 +33,7 @@ Customer churn is costly for telecom companies. By predicting which customers ar
 
 ## 📁 Project Structure
 telecom-churn-prediction/
+
 ├── churn_prediction.ipynb # Main notebook
 
     ├──images/ # Generated visualizations
