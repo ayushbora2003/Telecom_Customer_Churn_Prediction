@@ -20,13 +20,11 @@ Customer churn is costly for telecom companies. By predicting which customers ar
 - Jupyter Notebook
 
 ## 📈 Key Results
-- **Churn Rate**: 26.5%
 - **Best Model**: Logistic Regression
-- **Accuracy**: 80.1%
-- **Precision**: 66.7%
-- **Recall**: 53.8%
-- **F1-Score**: 59.5%
-- **ROC-AUC**: 84.3%
+- **Accuracy**: 80.3%
+- **Precision**: 64.7%
+- **Recall**: 56.5%
+- **F1-Score**: 60.4%
 
 ## 🚀 How to Run
 1. Clone the repository
@@ -36,8 +34,13 @@ Customer churn is costly for telecom companies. By predicting which customers ar
 ## 📁 Project Structure
 telecom-churn-prediction/
 ├── churn_prediction.ipynb # Main notebook
-├── data_file.csv # Dataset
-├── churn_prediction_model.pkl # Saved model
+
+    ├──images/ # Generated visualizations
+
+    ├──data/data_file.csv # Dataset
+
+    ├───model/churn_prediction_model.pkl # Saved model
+
 ├── requirements.txt # Dependencies
-├── README.md # This file
-└── images/ # Generated visualizations
+
+└── README.md
